@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/frell.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>FRELL MUSIC</title>
+</head>
+<!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+<body class="bg-blur">
+    <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #fda572e3;">
+        <div class="container-fluid">
+            <a href="../html/FrellMusic.html" style="width: 10%;"><img src="../img/logo2.png" class="log d-none d-xxl-block"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categorías
+                    </a>
+                    <ul class="dropdown-menu dropmenuStyle" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                      <li><a class="dropdown-item" href="#">Alientos</a></li>
+                      <li><a class="dropdown-item" href="#">Audio</a></li>
+                      <li><a class="dropdown-item" href="#">Percusiones</a></li>
+                      <li><a class="dropdown-item" href="#">Vocal</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Artistas</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Opciones
+                    </a>
+                    <ul class="dropdown-menu dropmenuStyle" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Perfil</a></li>
+                      <li><a class="dropdown-item" href="#">Mis compras</a></li>
+                      <li><a class="dropdown-item" href="#">Historial</a></li>
+                      <li><a class="dropdown-item" href="#">Formas de Pago</a></li>
+                      <li><a class="dropdown-item" href="#">Carrito</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Configuración</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+            <form class="d-flex">
+              <input class="form-search me-2" type="search" placeholder="Buscar" aria-label="Search">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button class="buttonReg" data-bs-toggle="modal" data-bs-target="#register" type="button" role="form" aria-controls="signin" aria-selected="false">Registrarse</button>
+              &nbsp;
+              <button class="buttonSign"data-bs-toggle="modal" data-bs-target="#signin" type="button" role="form" aria-controls="signin" aria-selected="false">Iniciar Sesión</button>
+            </form>
+          </div>
+          <!--Modal Registrarse-->
+          <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 style="font-weight: 100;">REGISTRARSE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="container rounded bg-light">
+                    <div id="labemail">
+                        <label for="email">Email</label><br>
+                    </div>
+                    <div id="email">
+                      <input type="email" name="email" id="email" placeholder="Ingresa tu email">
+                    <br>
+                    </div>
+                    <h6 class="txt6">Enviaremos un email a tu correo eléctronico para que valides tu cuenta.</h6>
+                    <div class="check">
+                        <input type="checkbox" name="acuerdo" value="deacuerdo">Soy mayor de 13 años, he leído y aceptado los <a href="#">Términos y condiciones</a> del sitio.
+                    </div>
+                    <!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+                    <div>
+                        <input type="button" name="next" class="nextbutton" value="Siguiente">
+                    </div>
+                    <hr>
+                    <br>
+                    <h4 class="conect">O conéctate vía:</h4>
+                    <div class="botform">
+                      <form>
+                        <input type="button" name="google" class="goobot" value="Google" onclick="location.href='https://accounts.google.com/ServiceLogin/signinchooser?hl=es&passive=true&continue=http%3A%2F%2Fsupport.google.com%2Fmail%2Fanswer%2F8494%3Fco%3DGENIE.Platform%253DDesktop%26hl%3Des&ec=GAZAdQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin'">
+
+                        <input type="button" name="facebook" class="facebot" value="Facebook" onclick="location.href='https://www.facebook.com'">
+                        <br><br><br><br>
+                        <h5 style="text-align: center; color: white;">Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón</h5>
+                      </form>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+          <!--Modal Iniciar Sesión-->
+          <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 style="font-weight: 100;">INICIAR SESIÓN</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="container rounded bg-light">
+                      <div><img src="../img/user img.png" class="mx-auto d-block" ></div>
+                      <br>
+                      <div class="form-group">
+                        <input class="form-control" type="text" name="user" placeholder="Usuario">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="password" placeholder="Contraseña">
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-primary w-100">Iniciar Sesión</button>
+                    <br><br><br><br>
+                    <h5 style="text-align: center; color: white;">Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón</h5>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </nav>
+      <!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+      <!--Carrousel-->
+      <div id="carouselExampleCaptions" class="carousel slide carrouselCS" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/C1.png" class="img-fluid mx-auto d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="bg-blur mx-auto">Pioneer DDJ-400 DJ Mando</h5>
+              <p class="bg-blur mx-auto">Diseño de estilo club similar al del CDJ-2000NXS2 y DJM-900NXS2.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/C2.png" class="img-fluid mx-auto d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="bg-blur mx-auto">Trompetas en si bemol Yamaha YTR-8335S</h5>
+              <p class="bg-blur mx-auto">La serie Xeno representa la fusión entre la artesanía que implica el diseño de instrumentos espectaculares, la tecnología más avanzada, y la experiencia, talento y sueños de renombrados artistas de todo el mundo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/C3.png" class="img-fluid mx-auto d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="bg-blur mx-auto">YAMAHA F310 - Guitarra (6 Cuerdas, 63.4 cm, 9.6 cm, 11.6 cm)</h5>
+              <p class="bg-blur mx-auto">Guitarra acústica tipo western con un sonido definido: destaca por su timbre completo y equilibrado; una guitarra todoterreno, presenta una construcción de calidad y confort a la hora de tocar.</p>
+            </div>
+          </div>
+        </div>
+        <!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br><br><br>
+    <div class="separadoresHome">
+        <b>Oferta Destacada</b>
+    </div>
+    <div>
+        <div class="contIzq">
+            <div class="bg-blur">
+                <img src="../img/oferta1.png" style="width: 95%;">
+                <p style="color: white; font-size: 25px;" align="center"><del style="color: red;">$1,500.00</del>&nbsp;<strong style="color: rgb(0, 192, 0);">&nbsp;&nbsp;$950.00</strong></p>
+            </div>
+        </div>
+        <!--Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón-->
+        <div class="contDer">
+            <div class="bg-blur container">
+                <b> <a style="text-decoration: none; color: rgb(255, 255, 255); font-size: 25px; " href="#">AUDIFONOS BEHRINGER MOD. BH 770</a></b>
+                <p class="container d-none d-xxl-block" style="color: white; text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;">
+                    Audífonos closed-back de referencia para estudio, drivers dinámicos de 53 mm que proporcionan una respuesta de frecuencia ultra ancha (10 Hz a 38 kHz) ofrecen una respuesta extendida de graves y agudos detallados, ligeros y cómodos para largas sesiones, monitoreo natural similar a un altavoz con una espaciosa puesta en escena de sonido, diseño circumaural sobre la oreja con audífonos ultra suaves y diadema ajustable, diseño cerrado que garantiza un entorno de escucha constante con un aislamiento de sonido excepcional, tejido trenzado y cable de cobre sin oxígeno para mayor confiabilidad, incluye adaptador de 1/4″, rendimiento optimizado para usar con una amplia gama de dispositivos de audio profesionales y de consumo.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h5 style="text-align: center; color: white;">Rodolfo Eimy Rodríguez Ramírez 3°C TIDSM - Universidad Tecnológica de Torreón</h5>
+    </div>
+</body>
+<script src="../js/bootstrap.min.js"></script>
+</html>
